@@ -8,8 +8,8 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-md-8 text-center">
-                                    <h1 class="text-sbold" data-caption-animate="fadeInUpSmall"><span class="d-inline-block d-xl-block">Stop Stress and</span><span class="d-inline-block d-xl-block">Live a Harmonious Life</span></h1>
-                                    <p class="text-md" data-caption-animate="fadeInUpSmall" data-caption-delay="200">As your dedicated psychologist, I always try to help you get rid of any stress and emotional trouble for you to enjoy a better life in all its variety.  Feel free to schedule a consultation now!</p><a class="button button-lg button-primary button-ujarak" href="#">book now</a>
+                                    <h1 class="text-sbold" data-caption-animate="fadeInUpSmall"><span class="d-inline-block d-xl-block">إسستنارة خطوتك الأولى  </span><span class="d-inline-block d-xl-block">للإستقــرارs</span></h1>
+                                    <p class="text-md" data-caption-animate="fadeInUpSmall" data-caption-delay="200">الاستقرار النفسي والإجتماعي مهم لتنعم بحياة مطمئنه لذلك يحرص تطبيق استناره على تقديم الإستشارات النفسية والإجتماعية من قبل استشاريين نفسيين ذو خبرة بخصوصية وسرية تامة !</p><a class="button button-lg button-primary button-ujarak" href="#">حمل التطبيق الآن</a>
                                 </div>
                             </div>
                         </div>
@@ -43,8 +43,8 @@
                             <article class="box-nina">
                                 <div class="box-nina__icon linearicons-woman"></div>
                                 <div class="box-nina__main">
-                                    <h4 class="box-nina__title"><a href="#">Individual Counseling</a></h4>
-                                    <p>Helping you deal with personal issues.</p><a class="button button-sm button-default button-ujarak" href="#">View Details</a>
+                                    <h4 class="box-nina__title"><a href="#">بوابتك للإستقرار النفسي والإستقرار الإجتماعي</a></h4>
+                                    <p>نستمع إليك ونسهل عليك الوصول لأفضل الخبراء في أي وقت ومن أي مكان  </p>{{--<a class="button button-sm button-default button-ujarak" href="#">View Details</a> --}}
                                 </div>
                             </article>
                         </div>
@@ -53,8 +53,8 @@
                             <article class="box-nina">
                                 <div class="box-nina__icon linearicons-group-work"></div>
                                 <div class="box-nina__main">
-                                    <h4 class="box-nina__title"><a href="#">Family Counseling</a></h4>
-                                    <p>Assisting in solving family problems.</p><a class="button button-sm button-default button-ujarak" href="#">View Details</a>
+                                    <h4 class="box-nina__title"><a href="#">اختر مستشار من بين نخبة من المستشارين المتخصصين</a></h4>
+                                    <p>نقدم خدمات الإرشاد والحلول الاستشارية في المجال الأسري والنفسي والاجتماعي مع خبراء ومختصين</p>{{--<a class="button button-sm button-default button-ujarak" href="#">View Details</a> --}}
                                 </div>
                             </article>
                         </div>
@@ -63,8 +63,8 @@
                             <article class="box-nina">
                                 <div class="box-nina__icon linearicons-star"></div>
                                 <div class="box-nina__main">
-                                    <h4 class="box-nina__title"><a href="#">Couples Therapy</a></h4>
-                                    <p>Increasing trust and improving intimacy.</p><a class="button button-sm button-default button-ujarak" href="#">View Details</a>
+                                    <h4 class="box-nina__title"><a href="#">حدد مدة الإستشارة واختر الوقت المناسب لك</a></h4>
+                                    <p>نوفر خدمة حجز جلسة عن بعد مع المرونة في تحديد المواعيد </p>{{--<a class="button button-sm button-default button-ujarak" href="#">View Details</a> --}}
                                 </div>
                             </article>
                         </div>
@@ -191,7 +191,7 @@
         <!-- Why Choose Us-->
         <section class="section section-md bg-white text-center">
             <div class="container">
-                <h2>What I Offer</h2>
+                <h2>مميزاتنا</h2>
                 <div class="row row-30 row-md-70 wow fadeIn">
                     <div class="col-md-6 col-lg-4">
                         <!-- Box Lucy-->
@@ -200,10 +200,10 @@
                                 <div class="box-lucy__icon-outer">
                                     <div class="circle-decor"></div><span class="box-lucy__icon linearicons-fire"></span>
                                 </div>
-                                <h5 class="box-lucy__title">Stress Management</h5>
+                                <h5 class="box-lucy__title">خبراء لكافة المواضيع</h5>
                             </div>
                             <div class="box-lucy__main">
-                                <p>With my help and support, you’ll be able to easily control your level of stress in no time.</p>
+                                <p> مهما كانت حاجتك توجد استشارات على مدار الساعة يقدمها أفضل المستشارين</p>
                             </div>
                         </article>
                     </div>
@@ -214,10 +214,10 @@
                                 <div class="box-lucy__icon-outer">
                                     <div class="circle-decor circle-decor__mode-1"></div><span class="box-lucy__icon linearicons-fire"></span>
                                 </div>
-                                <h5 class="box-lucy__title">Depression Assessments</h5>
+                                <h5 class="box-lucy__title">جدولة المواعيد</h5>
                             </div>
                             <div class="box-lucy__main">
-                                <p>I will be glad to help you quickly determine the possibility of having a depression.</p>
+                                <p>جدولة المواعيد وحجزها وتعديلها بطريقة سهلة ومناسبة للمستشار والعميل</p>
                             </div>
                         </article>
                     </div>
@@ -228,10 +228,10 @@
                                 <div class="box-lucy__icon-outer">
                                     <div class="circle-decor circle-decor__mode-2"></div><span class="box-lucy__icon linearicons-sun"></span>
                                 </div>
-                                <h5 class="box-lucy__title">Psychodynamic Therapy</h5>
+                                <h5 class="box-lucy__title">الخصوصية</h5>
                             </div>
                             <div class="box-lucy__main">
-                                <p>This type of therapy is focused on your external world and it helps to treat depression.</p>
+                                <p>يستخدم التطبيق معايير تشفير عالية للمحافظة على خصوصيتك ، وسرية استشارتك</p>
                             </div>
                         </article>
                     </div>
@@ -242,10 +242,10 @@
                                 <div class="box-lucy__icon-outer">
                                     <div class="circle-decor circle-decor__mode-4"></div><span class="box-lucy__icon linearicons-fire"></span>
                                 </div>
-                                <h5 class="box-lucy__title">Family Counseling</h5>
+                                <h5 class="box-lucy__title">الدفع</h5>
                             </div>
                             <div class="box-lucy__main">
-                                <p>Family therapy addresses specific issues that affect the mental health of the family.</p>
+                                <p>طرق دفع آمنة وموثوقة ومتعددة لتلبي حاجتك في إتمام عملية حجز الموعد</p>
                             </div>
                         </article>
                     </div>
