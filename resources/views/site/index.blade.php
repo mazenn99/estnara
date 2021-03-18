@@ -111,7 +111,7 @@
         <!-- Pricing Plans-->
         <section class="section section-md bg-gray-light text-center oh">
             <div class="container wow fadeInUpSmall">
-                <h2>Pricing Plans</h2>
+                <h2>أقسام استنارة</h2>
                 <div class="row row-30 justify-content-md-center">
                     <div class="col-md-6 col-lg-4">
                         <!-- Pricing table item-->
@@ -120,20 +120,23 @@
                                 <div class="pricing-table__item-header-bg">
                                     <div class="pricing-table__item-header-bg-inner"></div>
                                 </div>
-                                <p class="pricing-table__item-title">Individual</p>
+                                <p class="pricing-table__item-title">تربوية</p>
                             </div>
                             <div class="pricing-table__item-main">
                                 <div class="pricing-table__item-price"><span class="pricing-table__item-price-currency">$</span><span class="pricing-table__item-price-value">99</span>
                                     <div class="pricing-table__item-price-aside"><span class="top">99</span></div>
                                 </div>
                                 <div class="pricing-table__item-divider"></div>
-                                <ul class="pricing-table__item-features">
+                                <p> 
+                                نهدف إلى الرقي بالواقع التربوي وتطوير الخدمات التعليمية والإدارية وتقديم برامج إرشادية تربوية لكافة الجهات المعنية والمهتمة بالتطوير التربوي والتعليمي
+                                </p>
+                                {{--<ul class="pricing-table__item-features">
                                     <li>Personal Consultations</li>
                                     <li>Behavior Therapy</li>
                                     <li>Anger Management</li>
-                                    <li>Evaluation</li>
+                                    <li>Evaluation</li>--}}
                                 </ul>
-                                <div class="pricing-table__item-control"><a class="button button-default button-ujarak" href="#">Order now</a></div>
+                                <div class="pricing-table__item-control"><a class="button button-default button-ujarak" href="#">نخبة من الإستشارين التربويين</a></div>
                             </div>
                         </article>
                     </div>
@@ -144,20 +147,23 @@
                                 <div class="pricing-table__item-header-bg">
                                     <div class="pricing-table__item-header-bg-inner"></div>
                                 </div>
-                                <p class="pricing-table__item-title">Family</p>
+                                <p class="pricing-table__item-title">نفسية</p>
                             </div>
                             <div class="pricing-table__item-main">
                                 <div class="pricing-table__item-price"><span class="pricing-table__item-price-currency">$</span><span class="pricing-table__item-price-value">299</span>
                                     <div class="pricing-table__item-price-aside"><span class="top">99</span></div>
                                 </div>
                                 <div class="pricing-table__item-divider"></div>
-                                <ul class="pricing-table__item-features">
+                                <p>
+                                    الوعي والتثقيف النفسي والمساندة في تقديم الإستشارات المتخصصة لمواجهة مشاكل الإضطرابات النفسية وتأمين الاستقرار النفسي للمجتمع
+                                </p>
+                                {{--<ul class="pricing-table__item-features">
                                     <li>Family Consultations</li>
                                     <li>Child Psychotherapy</li>
                                     <li>Psychological Analysis</li>
-                                    <li>Psychological Testing</li>
+                                    <li>Psychological Testing</li>--}}
                                 </ul>
-                                <div class="pricing-table__item-control"><a class="button button-primary button-ujarak" href="#">Order now</a></div>
+                                <div class="pricing-table__item-control"><a class="button button-primary button-ujarak" href="#">نخبة من الإستشارين النفسيين</a></div>
                             </div>
                         </article>
                     </div>
@@ -168,20 +174,23 @@
                                 <div class="pricing-table__item-header-bg">
                                     <div class="pricing-table__item-header-bg-inner"></div>
                                 </div>
-                                <p class="pricing-table__item-title">CORPORATE</p>
+                                <p class="pricing-table__item-title">اجتماعية</p>
                             </div>
                             <div class="pricing-table__item-main">
                                 <div class="pricing-table__item-price"><span class="pricing-table__item-price-currency">$</span><span class="pricing-table__item-price-value">199</span>
                                     <div class="pricing-table__item-price-aside"><span class="top">99</span></div>
                                 </div>
                                 <div class="pricing-table__item-divider"></div>
-                                <ul class="pricing-table__item-features">
+                                <p>
+                                    لمعالجة المشكلات الأسرية والاجتماعية لضمان تكافل الأسرة وتحسين نمط الحياة لأفراد المجتمع
+                                </p>
+                                {{--<ul class="pricing-table__item-features">
                                     <li>Stress Management</li>
                                     <li>Psychological Assessment</li>
                                     <li>Employee Assistance</li>
-                                    <li>Team Building</li>
+                                    <li>Team Building</li>--}}
                                 </ul>
-                                <div class="pricing-table__item-control"><a class="button button-default button-ujarak" href="#">Order now</a></div>
+                                <div class="pricing-table__item-control"><a class="button button-default button-ujarak" href="#">نخبة من الإستشارين الاجتماعيين</a></div>
                             </div>
                         </article>
                     </div>
