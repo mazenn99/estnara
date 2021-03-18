@@ -776,7 +776,7 @@ html .modal {
 }
 
 .icon-primary {
-	color: #e6ae97;
+	color: #a29bfe;
 }
 
 .icon-secondary {
@@ -843,7 +843,7 @@ html .icon-outline {
 	width: 1.77em;
 	line-height: 1.77em;
 	text-align: center;
-	border: 1px solid #e8e8e8;
+	border: 1px solid #6c5ce7;
 }
 
 .icon-style-brand[class*='facebook']:hover {

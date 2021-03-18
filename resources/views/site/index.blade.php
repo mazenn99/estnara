@@ -8,8 +8,8 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-md-8 text-center">
-                                    <h1 class="text-sbold" data-caption-animate="fadeInUpSmall"><span class="d-inline-block d-xl-block">إسستنارة خطوتك الأولى  </span><span class="d-inline-block d-xl-block">للإستقــرارs</span></h1>
-                                    <p class="text-md" data-caption-animate="fadeInUpSmall" data-caption-delay="200">الاستقرار النفسي والإجتماعي مهم لتنعم بحياة مطمئنه لذلك يحرص تطبيق استناره على تقديم الإستشارات النفسية والإجتماعية من قبل استشاريين نفسيين ذو خبرة بخصوصية وسرية تامة !</p><a class="button button-lg button-primary button-ujarak" href="#">حمل التطبيق الآن</a>
+                                    <h1 class="text-sbold" data-caption-animate="fadeInUpSmall"><span class="d-inline-block d-xl-block">{{trans('site/index.estnara_first_step')}}  </span><span class="d-inline-block d-xl-block">{{trans('site/index.settle_down')}}</span></h1>
+                                    <p class="text-md" data-caption-animate="fadeInUpSmall" data-caption-delay="200">{{trans('site/index.overview_first_step')}}</p><a class="button button-lg button-primary button-ujarak" href="#">{{trans('site/index.download_app')}}</a>
                                 </div>
                             </div>
                         </div>
@@ -43,8 +43,8 @@
                             <article class="box-nina">
                                 <div class="box-nina__icon linearicons-woman"></div>
                                 <div class="box-nina__main">
-                                    <h4 class="box-nina__title"><a href="#">بوابتك للإستقرار النفسي والإستقرار الإجتماعي</a></h4>
-                                    <p>نستمع إليك ونسهل عليك الوصول لأفضل الخبراء في أي وقت ومن أي مكان  </p>{{--<a class="button button-sm button-default button-ujarak" href="#">View Details</a> --}}
+                                    <h4 class="box-nina__title"><a href="#">{{trans('site/index.gateway_to_psychological')}}</a></h4>
+                                    <p>{{trans('site/index.easy_for_you')}}  </p>{{--<a class="button button-sm button-default button-ujarak" href="#">View Details</a> --}}
                                 </div>
                             </article>
                         </div>
@@ -53,8 +53,8 @@
                             <article class="box-nina">
                                 <div class="box-nina__icon linearicons-group-work"></div>
                                 <div class="box-nina__main">
-                                    <h4 class="box-nina__title"><a href="#">اختر مستشار من بين نخبة من المستشارين المتخصصين</a></h4>
-                                    <p>نقدم خدمات الإرشاد والحلول الاستشارية في المجال الأسري والنفسي والاجتماعي مع خبراء ومختصين</p>{{--<a class="button button-sm button-default button-ujarak" href="#">View Details</a> --}}
+                                    <h4 class="box-nina__title"><a href="#">{{trans('site/index.choose_mentor')}}</a></h4>
+                                    <p>{{trans('site/index.consulting_service')}}</p>{{--<a class="button button-sm button-default button-ujarak" href="#">View Details</a> --}}
                                 </div>
                             </article>
                         </div>
@@ -63,8 +63,8 @@
                             <article class="box-nina">
                                 <div class="box-nina__icon linearicons-star"></div>
                                 <div class="box-nina__main">
-                                    <h4 class="box-nina__title"><a href="#">حدد مدة الإستشارة واختر الوقت المناسب لك</a></h4>
-                                    <p>نوفر خدمة حجز جلسة عن بعد مع المرونة في تحديد المواعيد </p>{{--<a class="button button-sm button-default button-ujarak" href="#">View Details</a> --}}
+                                    <h4 class="box-nina__title"><a href="#">{{trans('site/index.duration_consultation')}}</a></h4>
+                                    <p>{{trans('site/index.provide_remote_session')}}</p>{{--<a class="button button-sm button-default button-ujarak" href="#">View Details</a> --}}
                                 </div>
                             </article>
                         </div>

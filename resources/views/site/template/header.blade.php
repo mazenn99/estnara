@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="ar" dir="rtl">
+<html class="wide wow-animation" lang="{{app()->getLocale()}}" dir=@if(app()->getLocale() == 'ar') 'rtl' @else 'ltr' @endif>
 <head>
     <!-- Site Title-->
     <title>Home</title>
