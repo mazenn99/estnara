@@ -246,7 +246,7 @@ h1,
 	h1,
 	.heading-1 {
 		font-size: 60px;
-		line-height: 1.2;
+		line-height: 1.5;
 	}
 }
 
@@ -9610,7 +9610,7 @@ html .layout-justify > * {
 }
 
 .text-md {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .ls-05 {

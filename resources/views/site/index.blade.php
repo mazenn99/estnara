@@ -9,9 +9,16 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-md-8 text-center">
-                                <h1 class="text-sbold" data-caption-animate="fadeInUpSmall"><span
-                                        class="d-inline-block d-xl-block">{{trans('site/index.estnara_first_step')}}  </span><span
-                                        class="d-inline-block d-xl-block">{{trans('site/index.settle_down')}}</span>
+                                <h1 id="test_id" >
+{{--                                    <span--}}
+{{--                                        class="d-inline-block d-xl-block">--}}
+{{--                                        <span style="color:#1897CA">--}}
+{{--                                            {{trans('site/index.estnara')}}--}}
+{{--                                        </span>{{trans('site/index.estnara_first_step')}}  </span>--}}
+{{--                                    <span--}}
+{{--                                        class="d-inline-block d-xl-block">--}}
+{{--                                        {{trans('site/index.settle_down')}}--}}
+{{--                                    </span>--}}
                                 </h1>
                                 <p class="text-md" data-caption-animate="fadeInUpSmall"
                                    data-caption-delay="200">{{trans('site/index.overview_first_step')}}</p><a

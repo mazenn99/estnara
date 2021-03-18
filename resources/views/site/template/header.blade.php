@@ -11,7 +11,8 @@
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:400,700%7CPoppins:400,500,600">
     {{-- <link rel="stylesheet" href="{{asset('front-end')}}/css/bootstrap.css"> --}}
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.5.3/css/bootstrap.min.css" integrity="sha384-JvExCACAZcHNJEc7156QaHXTnQL3hQBixvj5RV5buE7vgnNEzzskDtx9NQ4p6BJe" crossorigin="anonymous">
     <link rel="stylesheet" href="{{asset('front-end')}}/css/fonts.css">
     <link rel="stylesheet" href="{{asset('front-end')}}/css/style.css">

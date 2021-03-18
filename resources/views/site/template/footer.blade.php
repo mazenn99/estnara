@@ -14,5 +14,16 @@
 <!-- Javascript-->
 <script src="{{asset('front-end')}}/js/core.min.js"></script>
 <script src="{{asset('front-end')}}/js/script.js"></script>
+<script src="{{asset('front-end')}}/js/AutoTyping.js"></script>
+
+<script>
+    const myText = new AutoTyping({
+        id: 'test_id',                   //Your HTML element id (string) - REQUIRED
+        textColor: '#FFFFFF',            //Color of Your text (string) *default('#000')
+        cursor:'|',
+        cursorColor : '#FFFFFF',
+        typeText: ['إستنارة خطوتك الأولى للإستقرار' , 'أحبك مره عائشة القلب'] //Your text (array with strings)
+    }).init();
+</script>
 </body>
 </html>
