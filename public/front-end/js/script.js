@@ -292,6 +292,7 @@
 				autoplayTimeout: c.attr("data-autoplay-timeout") ? c.attr("data-autoplay-timeout") : 3500,
 				loop: isNoviBuilder ? false : c.attr("data-loop") !== "false",
 				items: 1,
+                rtl : true,
 				center: c.attr("data-center") === "true",
 				dotsContainer: c.attr("data-pagination-container") || false,
 				navContainer: c.attr("data-navigation-container") || false,
