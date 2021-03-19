@@ -11,11 +11,8 @@
         'social_media' => 'soical media',
         'search' => 'search ...',
         // navbar //
-        'home' => 'Home',
-        'contact' => 'Contact us',
-        'blog' => 'Blogs',
-        'service' => 'Services',
-        'about' => 'about',
+        'live_coach' => 'Live Coach',
+        'live_coach_overview' => 'To help you define your goals and prepare an actionable plan to reach and accomplish them, and to develop your relationship with yourself and others, which leads to increasing your productivity and enjoying a better life',
         'estnara_first_step' =>   'estnara your first step',
         'overview_first_step' =>   'Psychological and social stability is important to enjoy a peaceful life, so the application of his enlightenment is keen to provide psychological and social counseling by experienced psychological consultants with complete privacy and confidentiality!',
         'settle_down' =>   'To settle down',
@@ -33,7 +30,7 @@
         'psychological' =>   'Psychological',
         'awareness_psychological_education' =>   'Awareness, psychological education and support in providing specialized counseling to confront problems of mental disorders and secure psychological stability for the community',
         'social' =>   'Social',
-        'family_and_social_problems' =>   'To address family and social problems to ensure family solidarity and to improve the lifestyle of community members',
+        'family_and_social_problems' =>   '(To address family and social problems and to provide the most effective solutions to ensure family solidarity and improve the individuals\' lifestyle of stability',
         'experts_for_all_subjects' =>   'Experts for all subjects',
         'there_are_round_the_clock_consultations' =>   'Whatever your need, there are round-the-clock consultations provided by the best advisors',
         'schedule_appointments' =>   'Schedule appointments',
@@ -42,5 +39,4 @@
         'application_uses_high_encryption' =>   'The application uses high encryption standards to maintain your privacy, and the confidentiality of your advice',
         'payment' =>   'payment',
         'reliable_and_multiple_payment' =>   'Secure, reliable and multiple payment methods to meet your need to complete the appointment reservation process',
-        'estnara_section' =>   'Estnara section',
     ];

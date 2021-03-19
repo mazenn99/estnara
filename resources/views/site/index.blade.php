@@ -1,10 +1,11 @@
 @extends('site.template.master')
+@section('title' , 'الصفحة الرئيسية')
 @section('content')
     <!-- Swiper-->
     <section class="section swiper-container swiper-slider swiper_style-2 swiper-controls-modern" data-loop="true"
              data-autoplay="false" data-simulate-touch="false">
         <div class="swiper-wrapper">
-            <div class="swiper-slide bg-image-dark" data-slide-bg="images/slider-modern-slide-1-1920x660.jpg">
+            <div class="swiper-slide bg-image-dark" data-slide-bg="{{asset('front-end')}}/images/undraw_conversation_h12g.svg">
                 <div class="swiper-slide-caption">
                     <div class="container">
                         <div class="row justify-content-center">
@@ -135,7 +136,7 @@
         <div class="container wow fadeInUpSmall">
             <h2>{{trans('site/index.estnara_section')}}</h2>
             <div class="row row-30 justify-content-md-center">
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-6">
                     <!-- Pricing table item-->
                     <article class="pricing-table__item pricing-table-modern__item">
                         <div class="pricing-table__item-header">
@@ -149,7 +150,7 @@
                             {{--                                    <div class="pricing-table__item-price-aside"><span class="top">99</span></div>--}}
                             {{--                                </div>--}}
                             <div class="pricing-table__item-divider"></div>
-                            <p>
+                            <p style="font-size:20px;">
                                 {{trans('site/index.aim_to_advance_the_educational')}}
                             </p>
                             {{--<ul class="pricing-table__item-features">
@@ -158,42 +159,13 @@
                                 <li>Anger Management</li>
                                 <li>Evaluation</li>--}}
                             </ul>
-                            <div class="pricing-table__item-control"><a class="button button-default button-ujarak"
+                            <div class="pricing-table__item-control"><a class="btn btn-outline-dark btn-lg"
                                                                         href="#">{{trans('site/index.elite_educational_consultants')}}</a>
                             </div>
                         </div>
                     </article>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <!-- Pricing table item-->
-                    <article class="pricing-table__item pricing-table-modern__item pricing-table-modern__item_prefered">
-                        <div class="pricing-table__item-header">
-                            <div class="pricing-table__item-header-bg">
-                                <div class="pricing-table__item-header-bg-inner"></div>
-                            </div>
-                            <p class="pricing-table__item-title">{{trans('site/index.psychological')}}</p>
-                        </div>
-                        <div class="pricing-table__item-main">
-                            {{--                                <div class="pricing-table__item-price"><span class="pricing-table__item-price-currency">$</span><span class="pricing-table__item-price-value">299</span>--}}
-                            {{--                                    <div class="pricing-table__item-price-aside"><span class="top">99</span></div>--}}
-                            {{--                                </div>--}}
-                            <div class="pricing-table__item-divider"></div>
-                            <p>
-                                {{trans('site/index.awareness_psychological_education')}}
-                            </p>
-                            {{--<ul class="pricing-table__item-features">
-                                <li>Family Consultations</li>
-                                <li>Child Psychotherapy</li>
-                                <li>Psychological Analysis</li>
-                                <li>Psychological Testing</li>--}}
-                            </ul>
-                            <div class="pricing-table__item-control"><a class="button button-primary button-ujarak"
-                                                                        href="#">{{trans('site/index.elite_educational_consultants')}}</a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-6">
                     <!-- Pricing table item-->
                     <article class="pricing-table__item pricing-table-modern__item">
                         <div class="pricing-table__item-header">
@@ -207,7 +179,7 @@
                             {{--                                    <div class="pricing-table__item-price-aside"><span class="top">99</span></div>--}}
                             {{--                                </div>--}}
                             <div class="pricing-table__item-divider"></div>
-                            <p>
+                            <p style="font-size:20px;">
                                 {{trans('site/index.family_and_social_problems')}}
                             </p>
                             {{--<ul class="pricing-table__item-features">
@@ -216,13 +188,13 @@
                                 <li>Employee Assistance</li>
                                 <li>Team Building</li>--}}
                             </ul>
-                            <div class="pricing-table__item-control"><a class="button button-default button-ujarak"
+                            <div class="pricing-table__item-control"><a class="btn btn-outline-dark btn-lg"
                                                                         href="#">{{trans('site/index.elite_educational_consultants')}}</a>
                             </div>
                         </div>
                     </article>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-6 col-lg-6">
                     <!-- Pricing table item-->
                     <article class="pricing-table__item pricing-table-modern__item pricing-table-modern__item_prefered">
                         <div class="pricing-table__item-header">
@@ -236,8 +208,9 @@
                             {{--                                    <div class="pricing-table__item-price-aside"><span class="top">99</span></div>--}}
                             {{--                                </div>--}}
                             <div class="pricing-table__item-divider"></div>
-                            <p>
+                            <p style="font-size:20px;">
                                 {{trans('site/index.awareness_psychological_education')}}
+
                             </p>
                             {{--<ul class="pricing-table__item-features">
                                 <li>Family Consultations</li>
@@ -245,7 +218,36 @@
                                 <li>Psychological Analysis</li>
                                 <li>Psychological Testing</li>--}}
                             </ul>
-                            <div class="pricing-table__item-control"><a class="button button-primary button-ujarak"
+                            <div class="pricing-table__item-control"><a class="btn btn-outline-primary btn-lg"
+                                                                        href="#">{{trans('site/index.elite_educational_consultants')}}</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <!-- Pricing table item-->
+                    <article class="pricing-table__item pricing-table-modern__item pricing-table-modern__item_prefered">
+                        <div class="pricing-table__item-header">
+                            <div class="pricing-table__item-header-bg">
+                                <div class="pricing-table__item-header-bg-inner"></div>
+                            </div>
+                            <p class="pricing-table__item-title">{{trans('site/index.live_coach')}}</p>
+                        </div>
+                        <div class="pricing-table__item-main">
+                            {{--                                <div class="pricing-table__item-price"><span class="pricing-table__item-price-currency">$</span><span class="pricing-table__item-price-value">299</span>--}}
+                            {{--                                    <div class="pricing-table__item-price-aside"><span class="top">99</span></div>--}}
+                            {{--                                </div>--}}
+                            <div class="pricing-table__item-divider"></div>
+                            <p style="font-size:20px;">
+                                {{trans('site/index.live_coach_overview')}}
+                            </p>
+                            {{--<ul class="pricing-table__item-features">
+                                <li>Family Consultations</li>
+                                <li>Child Psychotherapy</li>
+                                <li>Psychological Analysis</li>
+                                <li>Psychological Testing</li>--}}
+                            </ul>
+                            <div class="pricing-table__item-control"><a class="btn btn-outline-primary btn-lg"
                                                                         href="#">{{trans('site/index.elite_educational_consultants')}}</a>
                             </div>
                         </div>

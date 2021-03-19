@@ -8238,6 +8238,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	}
 	.pricing-table-modern__item .pricing-table__item-main {
 		padding: 30px 25px 40px;
+        min-height:266px;
 	}
 	.pricing-table-modern__item * + .pricing-table__item-price {
 		margin-top: 22px;
@@ -8271,6 +8272,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 	}
 	.pricing-table-modern__item .pricing-table__item-main {
 		padding: 42px 30px 60px;
+        min-height:350px;
 	}
 }
 

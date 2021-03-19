@@ -88,13 +88,13 @@
                             </div>
                             <!-- RD Navbar Nav-->
                             <ul class="rd-navbar-nav">
-                                <li class="active"><a href="index.html">{{trans('site/index.home')}}</a>
+                                <li class="active"><a href="{{route('home.page')}}">{{trans('site/index.home')}}</a>
                                 </li>
-                                <li><a href="about.html">{{trans('site/index.about')}}</a>
+                                <li><a href="{{route('about.page')}}">{{trans('site/index.about')}}</a>
                                 </li>
-                                <li><a href="services.html">{{trans('site/index.service')}}</a>
+                                <li><a href="{{route('service.page')}}">{{trans('site/index.service')}}</a>
                                 </li>
-                                <li><a href="blog.html">{{trans('site/index.blog')}}</a>
+                                <li><a href="{{route('blogs.page')}}">{{trans('site/index.blog')}}</a>
                                     <!-- RD Navbar Dropdown-->
 {{--                                    <ul class="rd-navbar-dropdown">--}}
 {{--                                        <li><a href="blog-post.html">Blog post</a></li>--}}
@@ -136,7 +136,7 @@
 {{--                                        </li>--}}
 {{--                                    </ul>--}}
 {{--                                </li>--}}
-                                <li><a href="contact-us.html">{{trans('site/index.contact')}}</a>
+                                <li><a href="{{route('contact.page')}}">{{trans('site/index.contact')}}</a>
                                 </li>
                             </ul>
                         </div>

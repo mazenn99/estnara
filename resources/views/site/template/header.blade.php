@@ -2,7 +2,7 @@
 <html class="wide wow-animation" lang="{{app()->getLocale()}}" dir=@if(app()->getLocale() == 'ar') 'rtl' @else 'ltr' @endif>
 <head>
     <!-- Site Title-->
-    <title>Home</title>
+    <title>@yield('title' , 'home')</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

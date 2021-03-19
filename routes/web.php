@@ -12,10 +12,13 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::group(['prefix' => LaravelLocalization::setLocale(),
-        'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]], function(){
-    Route::get('/', function () {
-        return view('site.index');
+Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]], function(){
+    Route::group(['namespace' => 'Site'] , function() {
+        Route::get('/', 'PagesController@index')->name('home.page');
+        Route::get('about', 'PagesController@about')->name('about.page');
+        Route::get('services' , 'PagesController@services')->name('service.page');
+        Route::get('blogs' , 'PagesController@blogs')->name('blogs.page');
+        Route::get('contact' , 'PagesController@contactUs')->name('contact.page');
     });
 });
 
