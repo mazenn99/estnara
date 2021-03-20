@@ -329,10 +329,10 @@
                                 <div class="circle-decor"></div>
                                 <span class="box-lucy__icon linearicons-fire"></span>
                             </div>
-                            <h5 class="box-lucy__title">Executive Coaching</h5>
+                            <h5 class="box-lucy__title"> المحادثة</h5>
                         </div>
                         <div class="box-lucy__main">
-                            <p>Improve your professional relationships and everyday business performance.</p>
+                            <p>ابدأ جلستك في موعدها من خلال اتصال صوتي أو فديو أو شات </p>
                         </div>
                     </article>
                 </div>
@@ -344,11 +344,10 @@
                                 <div class="circle-decor circle-decor__mode-1"></div>
                                 <span class="box-lucy__icon linearicons-fire"></span>
                             </div>
-                            <h5 class="box-lucy__title">Online Support Groups</h5>
+                            <h5 class="box-lucy__title">متاح دائمًا</h5>
                         </div>
                         <div class="box-lucy__main">
-                            <p>At my clinic, I regularly organize support groups for people of all ages and
-                                nationalities.</p>
+                            <p> هدفنا الإستمرار والمساندة وتقديم الدعم وخدمتكم بتوفير خدمة حجز جلسة استشارية عن بعد في أي وقت </p>
                         </div>
                     </article>
                 </div>
@@ -360,8 +359,8 @@
         <div class="parallax-content">
             <div class="section-lg text-center">
                 <div class="container">
-                    <h2>Some Facts About Me</h2>
-                    <p class="offset-top-5 text-style-1">My recent achievements</p>
+                    <h2>إنجازات استنارة</h2>
+                    <p class="offset-top-5 text-style-1">نسعى إلى تقديم أفضل الإستشارات</p>
                     <div class="row row-30 offset-top-1">
                         <div class="col-sm-6 col-md-3">
                             <!-- Box counter-->
@@ -412,7 +411,7 @@
     <!-- Our Clients-->
     <section class="section section-md bg-gray-light text-center">
         <div class="container">
-            <h2>What My Clients Say</h2>
+            <h2>آراء عملائنا</h2>
             <!-- Owl Carousel -->
             <div class="owl-outer-navigation-wrap owl-carousel_nav-classic wow fadeIn">
                 <div class="owl-carousel quote-creative-carousel" data-items="1" data-lg-items="2" data-dots="true"
@@ -523,12 +522,21 @@
             <div class="container">
                 <div class="row row-50 justify-content-sm-center justify-content-md-start justify-content-lg-between">
                     <div class="col-sm-6 col-md-4 col-lg-3">
-                        <p class="custom-heading-3">About Us</p>
-                        <p class="ls-05">I’m Dr. Norah Crawford, a certified psychologist who adopts a holistic approach
-                            when treating clients.</p><a class="button button-primary button-ujarak button-sm"
-                                                         href="contact-us.html">Get in touch</a>
+                        <p class="custom-heading-3">نبذة عنّا</p>
+                        <p class="ls-05">يمكنك إستنارة من طلب إستشارات في شتى المجالات لدينا نخبة من المستشارين والمتخصين في مجال تقديم الإستشارات لاتتردد في الإتصال بنا وطرح استفسارك </p>
+                        <a class="button button-primary button-ujarak button-sm" href="contact-us.html">تواصل معنا</a>
                     </div>
-                    <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="download-area py-4">
+                     <div class="container text-center">
+                          <h3 class="mb-3">احصل على التطبيق</h3>
+                          <div class="section-intro mb-4 single-col-max-width mx-auto">يمكنك تحميل التطبيق على منصة اندرويد او ايفون من خلال الضغط على الايقونة</div>
+                          <ul class="app-stores list-unstyled list-inline mx-auto  d-inline-block">
+                            <li class="list-inline-item mr-3"><a href="http://onelink.to/estenarh"><img class="ios" src="https://www.estenarh.com/assets/images/appstore-apple.svg" alt="app-store"></a></li>
+                            <li class="list-inline-item"><a href="http://onelink.to/estenarh"><img class="android" src="https://www.estenarh.com/assets/images/appstore-android.svg" alt="google play"></a></li>
+                          </ul>
+                    </div>
+                   
+                    {{--<div class="col-sm-6 col-md-4 col-xl-3">
                         <p class="custom-heading-3">Contact information</p>
                         <dl class="list-terms-block">
                             <dt>Phone</dt>
@@ -539,7 +547,7 @@
                             <dd><a href="mailto:#">info@demolink.org</a></dd>
                         </dl>
                         <dl class="list-terms-block">
-                            <dt>Follow Me</dt>
+                            <dt>تابعنا على وسائل التواصل</dt>
                             <dd>
                                 <ul class="list-inline list-inline-xxs">
                                     <li>
@@ -578,7 +586,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
