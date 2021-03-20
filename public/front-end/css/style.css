@@ -467,7 +467,7 @@ h6,
 	left: 0;
 	width: 40px;
 	height: 3px;
-	background: #e6ae97;
+	background: #1897CA;
 }
 
 html .custom-heading-3 + * {
@@ -2487,6 +2487,7 @@ html .button-ghost:hover {
 	.box-lucy {
 		padding: 20px 30px 30px 30px;
 		text-align: left;
+        min-height: 280px;
 	}
 	.box-lucy__aside {
 		display: flex;
@@ -2529,9 +2530,11 @@ html .button-ghost:hover {
 	}
 }
 
+
 @media (min-width: 1200px) {
 	.box-lucy {
 		padding: 35px 32px 40px 44px;
+        min-height: 280px;
 	}
 }
 
@@ -14794,7 +14797,7 @@ html.rd-navbar-fixed-linked .page {
 	font-size: 20px;
 	line-height: 38px;
 	color: #ffffff;
-	background: #e6ae97;
+	background:#1897CA;
 	position: fixed;
 	right: 15px;
 	bottom: 15px;
@@ -14808,7 +14811,7 @@ html.rd-navbar-fixed-linked .page {
 
 .ui-to-top:hover {
 	color: #ffffff;
-	background: #d18c70;
+	background:#1897CA;
 	text-decoration: none;
 }
 

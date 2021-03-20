@@ -189,7 +189,7 @@
                                 <li>Team Building</li>--}}
                             </ul>
                             <div class="pricing-table__item-control"><a class="btn btn-outline-dark btn-lg"
-                                                                        href="#">{{trans('site/index.elite_educational_consultants')}}</a>
+                                                                        href="#">{{trans('site/index.elite_educational_consultants_socialists')}}</a>
                             </div>
                         </div>
                     </article>
@@ -219,7 +219,7 @@
                                 <li>Psychological Testing</li>--}}
                             </ul>
                             <div class="pricing-table__item-control"><a class="btn btn-outline-primary btn-lg"
-                                                                        href="#">{{trans('site/index.elite_educational_consultants')}}</a>
+                                                                        href="#">{{trans('site/index.elite_educational_consultants_psychologists')}}</a>
                             </div>
                         </div>
                     </article>
@@ -248,7 +248,7 @@
                                 <li>Psychological Testing</li>--}}
                             </ul>
                             <div class="pricing-table__item-control"><a class="btn btn-outline-primary btn-lg"
-                                                                        href="#">{{trans('site/index.elite_educational_consultants')}}</a>
+                                                                        href="#">{{trans('site/index.elite_educational_consultants_life_coach')}}</a>
                             </div>
                         </div>
                     </article>
@@ -329,10 +329,10 @@
                                 <div class="circle-decor"></div>
                                 <span class="box-lucy__icon linearicons-fire"></span>
                             </div>
-                            <h5 class="box-lucy__title">Executive Coaching</h5>
+                            <h5 class="box-lucy__title"> المحادثة</h5>
                         </div>
                         <div class="box-lucy__main">
-                            <p>Improve your professional relationships and everyday business performance.</p>
+                            <p>ابدأ جلستك في موعدها من خلال اتصال صوتي أو فديو أو شات </p>
                         </div>
                     </article>
                 </div>
@@ -344,11 +344,10 @@
                                 <div class="circle-decor circle-decor__mode-1"></div>
                                 <span class="box-lucy__icon linearicons-fire"></span>
                             </div>
-                            <h5 class="box-lucy__title">Online Support Groups</h5>
+                            <h5 class="box-lucy__title">متاح دائمًا</h5>
                         </div>
                         <div class="box-lucy__main">
-                            <p>At my clinic, I regularly organize support groups for people of all ages and
-                                nationalities.</p>
+                            <p> هدفنا الإستمرار والمساندة وتقديم الدعم وخدمتكم بتوفير خدمة حجز جلسة استشارية عن بعد في أي وقت </p>
                         </div>
                     </article>
                 </div>
@@ -360,8 +359,8 @@
         <div class="parallax-content">
             <div class="section-lg text-center">
                 <div class="container">
-                    <h2>Some Facts About Me</h2>
-                    <p class="offset-top-5 text-style-1">My recent achievements</p>
+                    <h2>إنجازات استنارة</h2>
+                    <p class="offset-top-5 text-style-1">نسعى إلى تقديم أفضل الإستشارات</p>
                     <div class="row row-30 offset-top-1">
                         <div class="col-sm-6 col-md-3">
                             <!-- Box counter-->
@@ -412,7 +411,7 @@
     <!-- Our Clients-->
     <section class="section section-md bg-gray-light text-center">
         <div class="container">
-            <h2>What My Clients Say</h2>
+            <h2>آراء عملائنا</h2>
             <!-- Owl Carousel -->
             <div class="owl-outer-navigation-wrap owl-carousel_nav-classic wow fadeIn">
                 <div class="owl-carousel quote-creative-carousel" data-items="1" data-lg-items="2" data-dots="true"
@@ -516,4 +515,61 @@
     {{--            </div>--}}
     {{--        </section>--}}
 
+
+
+
+                    {{--<div class="col-sm-6 col-md-4 col-xl-3">
+                        <p class="custom-heading-3">Contact information</p>
+                        <dl class="list-terms-block">
+                            <dt>Phone</dt>
+                            <dd><a class="link-md" href="tel:#">1-800-700-6200</a></dd>
+                        </dl>
+                        <dl class="list-terms-block">
+                            <dt>E-mail</dt>
+                            <dd><a href="mailto:#">info@demolink.org</a></dd>
+                        </dl>
+                        <dl class="list-terms-block">
+                            <dt>تابعنا على وسائل التواصل</dt>
+                            <dd>
+                                <ul class="list-inline list-inline-xxs">
+                                    <li>
+                                        <a class="icon icon-xxs icon-circle icon-filled icon-filled_brand fa fa-facebook"
+                                           href="#"></a></li>
+                                    <li><a class="icon icon-xxs icon-circle icon-filled icon-filled_brand fa fa-twitter"
+                                           href="#"></a></li>
+                                    <li>
+                                        <a class="icon icon-xxs icon-circle icon-filled icon-filled_brand fa fa-google-plus"
+                                           href="#"></a></li>
+                                    <li>
+                                        <a class="icon icon-xxs icon-circle icon-filled icon-filled_brand fa fa-instagram"
+                                           href="#"></a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="custom-heading-3">Useful links</p>
+                        <div class="row row-5">
+                            <div class="col-sm-6 col-md-12 col-lg-6">
+                                <ul class="list-1">
+                                    <li><a href="#">Family Therapy</a></li>
+                                    <li><a href="#">Individual Therapy</a></li>
+                                    <li><a href="#">Child Psychotherapy</a></li>
+                                    <li><a href="#">Couples Counseling</a></li>
+                                    <li><a href="#">Stress Management</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 col-md-12 col-lg-6">
+                                <ul class="list-1">
+                                    <li><a href="blog.html">News</a></li>
+                                    <li><a href="pricing-tables.html">Pricing</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="contact-us.html">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> --}}
+                </div>
+            </div>
+        </div>
 @endsection
