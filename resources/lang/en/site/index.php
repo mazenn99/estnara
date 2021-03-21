@@ -52,5 +52,6 @@
         'opinions_of_our_customers' => 'The opinions of our customers',
         'about_us_footer' => 'About us',
         'get_the_app' => 'Get the app',
-        'download_the_application' => 'You can download the application on the Android or iPhone platform by clicking on the icon'
+        'download_the_application' => 'You can download the application on the Android or iPhone platform by clicking on the icon',
+        'copy_right' => '2020 All rights reserved to enlightenment for electronic marketing, registration number 1010637817'
     ];

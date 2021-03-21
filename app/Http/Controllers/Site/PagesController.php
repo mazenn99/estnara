@@ -19,12 +19,12 @@ class PagesController extends Controller
 
     // services page
     public function services() {
-        //
+        return view('site.services');
     }
 
     // blogs page
     public function blogs() {
-        //
+        return view('site.blogs');
     }
 
     // contact us page

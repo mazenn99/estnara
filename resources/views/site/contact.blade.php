@@ -1,27 +1,62 @@
 @extends('site.template.master')
-@section('title' , trans('site/index.title_index'))
+@section('title' , trans('site/contact.contact_title'))
 @section('content')
     <!-- Breadcrumbs -->
     <section class="breadcrumbs-custom">
         <div class="breadcrumbs-custom__aside bg-image context-dark" style="background-image: url(images/breadcrumbs-bg-1920x550.jpg);">
             <div class="container">
-                <h2 class="breadcrumbs-custom__title">Contact Us</h2>
+                <h2 class="breadcrumbs-custom__title">{{trans('site/contact.contact_us_page')}}</h2>
             </div>
         </div>
-        <div class="breadcrumbs-custom__main bg-gray-light">
-            <div class="container">
-                <ul class="breadcrumbs-custom__path">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active">Contact Us</li>
-                </ul>
-            </div>
-        </div>
+{{--        <div class="breadcrumbs-custom__main bg-gray-light">--}}
+{{--            <div class="container">--}}
+{{--                <ul class="breadcrumbs-custom__path">--}}
+{{--                    <li><a href="{{route('home.page')}}">{{trans('site/index.title_index')}}</a></li>--}}
+{{--                    <li class="active">{{trans('site/contact.contact_title')}}</li>--}}
+{{--                </ul>--}}
+{{--            </div>--}}
+{{--        </div>--}}
     </section>
 
     <!-- Contact Form -->
     <section class="section section-md bg-white">
         <div class="container container_bigger">
             <div class="row justify-content-md-center justify-content-xl-between row-2-columns-bordered row-50">
+                <div class="col-md-10 col-lg-7 col-xl-6">
+                    <h3 class="text-center">{{trans('site/contact.contact_form')}}</h3>
+                    <!-- RD Mailform -->
+                    <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                        <div class="row align-items-md-end row-20">
+                            <div class="col-md-6">
+                                <div class="form-wrap">
+                                    <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
+                                    <label class="form-label" for="contact-name">{{trans('site/contact.your_name')}}</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-wrap">
+                                    <input class="form-input" id="contact-phone" type="text" name="phone" data-constraints="@PhoneNumber">
+                                    <label class="form-label" for="contact-phone">{{trans('site/contact.phone')}}</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-wrap">
+                                    <label class="form-label" for="contact-message">{{trans('site/contact.message')}}</label>
+                                    <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-wrap">
+                                    <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
+                                    <label class="form-label" for="contact-email">{{trans('site/contact.your_email')}}</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="btn btn-block btn-lg btn-info" type="submit">{{trans('site/contact.send_message')}}</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
                 <div class="col-md-10 col-lg-5">
                     <h3>Get in Touch</h3>
                     <ul class="list-creative">
@@ -54,41 +89,6 @@
                             </dl>
                         </li>
                     </ul>
-                </div>
-                <div class="col-md-10 col-lg-7 col-xl-6">
-                    <h3 class="text-center">Contact Form</h3>
-                    <!-- RD Mailform -->
-                    <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-                        <div class="row align-items-md-end row-20">
-                            <div class="col-md-6">
-                                <div class="form-wrap">
-                                    <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
-                                    <label class="form-label" for="contact-name">Your Name</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-wrap">
-                                    <input class="form-input" id="contact-phone" type="text" name="phone" data-constraints="@PhoneNumber">
-                                    <label class="form-label" for="contact-phone">Phone</label>
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <div class="form-wrap">
-                                    <label class="form-label" for="contact-message">Your Message</label>
-                                    <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-wrap">
-                                    <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
-                                    <label class="form-label" for="contact-email">E-mail</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <button class="button button-block button-primary button-ujarak" type="submit">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
                 </div>
             </div>
         </div>

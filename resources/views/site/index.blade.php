@@ -23,7 +23,7 @@
                                 </h1>
                                 <p class="text-md" data-caption-animate="fadeInUpSmall"
                                    data-caption-delay="200">{{trans('site/index.overview_first_step')}}</p><a
-                                    class="button button-lg button-primary button-ujarak"
+                                    class="btn btn-lg btn-info mt-4 px-5"
                                     href="#">{{trans('site/index.download_app')}}</a>
                             </div>
                         </div>

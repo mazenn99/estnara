@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="{{asset('front-end')}}/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{asset('front-end')}}/images/fav_icon.png" type="image/x-icon">
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:400,700%7CPoppins:400,500,600">
     {{-- <link rel="stylesheet" href="{{asset('front-end')}}/css/bootstrap.css"> --}}

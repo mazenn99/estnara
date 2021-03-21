@@ -88,7 +88,7 @@
                             </div>
                             <!-- RD Navbar Nav-->
                             <ul class="rd-navbar-nav">
-                                <li class="active"><a href="{{route('home.page')}}">{{trans('site/index.home')}}</a>
+                                <li><a href="{{route('home.page')}}">{{trans('site/index.home')}}</a>
                                 </li>
                                 <li><a href="{{route('about.page')}}">{{trans('site/index.about')}}</a>
                                 </li>

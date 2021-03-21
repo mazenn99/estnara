@@ -1,5 +1,5 @@
 @extends('site.template.master')
-@section('title' , 'من نحن')
+@section('title' , trans('site/about.about_us'))
 @section('content')
     <!-- General Info-->
     <section class="section section-lg bg-white">

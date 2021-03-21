@@ -7,7 +7,7 @@
                     <p class="custom-heading-3">{{trans('site/index.about_us_footer')}}</p>
 {{--                    <p class="ls-05">يمكنك إستنارة من طلب إستشارات في شتى المجالات لدينا نخبة من المستشارين والمتخصين في--}}
 {{--                        مجال تقديم الإستشارات لاتتردد في الإتصال بنا وطرح استفسارك </p>--}}
-                    <a class="button button-primary button-ujarak button-sm" href="contact-us.html">تواصل معنا</a>
+                    <a class="btn btn-info px-5 btn-lg" href="{{route('contact.page')}}">{{trans('site/contact.contact_title')}}</a>
                 </div>
                 <div class="download-area py-4">
                     <div class="container text-center">
@@ -31,10 +31,11 @@
     </div>
                     <div class="footer-default__aside">
                         <div class="container">
+                            <p class="text-center">{{trans('site/index.copy_right')}}</p>
                             <div class="footer-default__aside-inner">
                                 <!-- Rights-->
-                                <p class="rights"><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Dr. Norah Crawford</span><span>.&nbsp;</span><span>All Rights Reserved.</span>
-                                </p><a class="privacy-link" href="privacy-policy.html">Privacy Policy</a>
+{{--                                <p class="rights"><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Dr. Norah Crawford</span><span>.&nbsp;</span><span>All Rights Reserved.</span>--}}
+{{--                                </p><a class="privacy-link" href="privacy-policy.html">Privacy Policy</a>--}}
                             </div>
                         </div>
                     </div>

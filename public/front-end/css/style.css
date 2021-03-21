@@ -939,7 +939,7 @@ html .page a.icon-filled_brand:hover::after {
 	font-size: 14px;
 	line-height: 24px;
 	border: 2px solid;
-	font-family:  "Helvetica Neue", "Lato",  Helvetica, Arial, sans-serif;
+	font-family: "Cairo" ,  "Helvetica Neue", "Lato",  Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	letter-spacing: .1em;
 	white-space: nowrap;
@@ -982,7 +982,8 @@ html .button-primary, html .button-primary:focus {
 html .button-primary:hover, html .button-primary:active {
 	color: #ffffff;
 	background-color: #d18c70;
-	border-color: #d18c70;
+	border-color: #c7c0c0;
+    border-radius: 20px;
 }
 
 html .button-primary.button-ujarak::before {
@@ -2229,7 +2230,7 @@ html .button-ghost:hover {
 }
 
 .box-nina__title a:hover {
-	color: #e6ae97;
+	color: #2e86de;
 }
 
 .box-nina_secondary .box-nina__icon {
@@ -8338,7 +8339,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 }
 
 .pricing-table-creative__item .pricing-table__item-title {
-	font-family:  "Poppins", sans-serif;
+	font-family: "Cairo" ,  "Poppins", sans-serif;
 	font-size: 20px;
 	line-height: 1.4;
 	color: #151515;
@@ -8349,7 +8350,7 @@ html:not(.tablet):not(.mobile) .thumb-alice:hover .thumb-alice__inner {
 }
 
 .pricing-table-creative__item .pricing-table__item-price-value {
-	font-family:  "Poppins", sans-serif;
+	font-family: "Cairo" ,  "Poppins", sans-serif;
 	font-size: 48px;
 	line-height: 1;
 	display: flex;
@@ -17884,7 +17885,7 @@ html .dtp .invisible {
 .owl-carousel_nav-modern .owl-next:hover,
 .owl-carousel_nav-modern .owl-next:hover::before,
 .owl-carousel_nav-modern .owl-next:hover::after {
-	border-color: #e6ae97;
+	border-color: #ff4800;
 }
 
 .owl-carousel_nav-modern .owl-prev:hover::before,
@@ -18003,8 +18004,8 @@ html .dtp .invisible {
 }
 
 .owl-dot.active, .owl-dot:hover {
-	background-color: #e6ae97;
-	border-color: #e6ae97;
+	background-color: #1897CA;
+	border-color: #1897CA;
 }
 
 /**
@@ -18992,7 +18993,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	display: block;
 	white-space: pre;
 	padding: 4px 12px;
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Cairo" , "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 12px;
 }
 
@@ -19965,7 +19966,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	display: block;
 	white-space: pre;
 	padding: 4px 12px;
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Cairo" , "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 12px;
 }
 
