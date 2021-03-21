@@ -2486,7 +2486,7 @@ html .button-ghost:hover {
 @media (min-width: 576px) {
 	.box-lucy {
 		padding: 20px 30px 30px 30px;
-		text-align: left;
+		/*text-align: left;*/
         min-height: 280px;
 	}
 	.box-lucy__aside {

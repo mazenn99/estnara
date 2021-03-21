@@ -1,5 +1,5 @@
 @extends('site.template.master')
-@section('title' , 'الصفحة الرئيسية')
+@section('title' , trans('site/index.title_index'))
 @section('content')
     <!-- Swiper-->
     <section class="section swiper-container swiper-slider swiper_style-2 swiper-controls-modern" data-loop="true"
@@ -329,10 +329,10 @@
                                 <div class="circle-decor"></div>
                                 <span class="box-lucy__icon linearicons-fire"></span>
                             </div>
-                            <h5 class="box-lucy__title"> المحادثة</h5>
+                            <h5 class="box-lucy__title"> {{trans('site/index.conversation')}}</h5>
                         </div>
                         <div class="box-lucy__main">
-                            <p>ابدأ جلستك في موعدها من خلال اتصال صوتي أو فديو أو شات </p>
+                            <p>{{trans('site/index.session_on_time')}} </p>
                         </div>
                     </article>
                 </div>
@@ -344,10 +344,10 @@
                                 <div class="circle-decor circle-decor__mode-1"></div>
                                 <span class="box-lucy__icon linearicons-fire"></span>
                             </div>
-                            <h5 class="box-lucy__title">متاح دائمًا</h5>
+                            <h5 class="box-lucy__title">{{trans('site/index.always_available')}}</h5>
                         </div>
                         <div class="box-lucy__main">
-                            <p> هدفنا الإستمرار والمساندة وتقديم الدعم وخدمتكم بتوفير خدمة حجز جلسة استشارية عن بعد في أي وقت </p>
+                            <p>{{trans('site/index.aim_is_to_continue')}} </p>
                         </div>
                     </article>
                 </div>
@@ -359,8 +359,8 @@
         <div class="parallax-content">
             <div class="section-lg text-center">
                 <div class="container">
-                    <h2>إنجازات استنارة</h2>
-                    <p class="offset-top-5 text-style-1">نسعى إلى تقديم أفضل الإستشارات</p>
+                    <h2>{{trans('site/index.enlightenment_achievements')}}</h2>
+                    <p class="offset-top-5 text-style-1">{{trans('site/index.provide_the_best_consultations')}}</p>
                     <div class="row row-30 offset-top-1">
                         <div class="col-sm-6 col-md-3">
                             <!-- Box counter-->
@@ -411,7 +411,7 @@
     <!-- Our Clients-->
     <section class="section section-md bg-gray-light text-center">
         <div class="container">
-            <h2>آراء عملائنا</h2>
+            <h2>{{trans('site/index.opinions_of_our_customers')}}</h2>
             <!-- Owl Carousel -->
             <div class="owl-outer-navigation-wrap owl-carousel_nav-classic wow fadeIn">
                 <div class="owl-carousel quote-creative-carousel" data-items="1" data-lg-items="2" data-dots="true"

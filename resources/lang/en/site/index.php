@@ -1,6 +1,7 @@
 <?php
     return [
         // navbar //
+        'title_index' => 'home page',
         'home' => 'home',
         'contact' => 'contact us',
         'blog' => 'blogs',
@@ -27,9 +28,9 @@
         'educational' =>   'Educational',
         'aim_to_advance_the_educational' =>   'We aim to advance the educational reality, develop educational and administrative services, and provide educational guidance programs for all stakeholders interested in educational and educational development.',
         'elite_educational_consultants' =>   'Elite educational consultants',
-        'elite_educational_consultants_socialists' =>   ' Elite of social educational consultants',
-        'elite_educational_consultants_psychologists' =>   'Elite educational psychological consultants',
-        'elite_educational_consultants_life_coach' =>   'Elite of Life Coach educational consultants',
+        'elite_educational_consultants_socialists' =>   ' Elite of social  consultants',
+        'elite_educational_consultants_psychologists' =>   'Elite psychological consultants',
+        'elite_educational_consultants_life_coach' =>   'Elite of Life Coach consultants',
         'psychological' =>   'Psychological',
         'awareness_psychological_education' =>   'Awareness, psychological education and support in providing specialized counseling to confront problems of mental disorders and secure psychological stability for the community',
         'social' =>   'Social',
@@ -42,4 +43,14 @@
         'application_uses_high_encryption' =>   'The application uses high encryption standards to maintain your privacy, and the confidentiality of your advice',
         'payment' =>   'payment',
         'reliable_and_multiple_payment' =>   'Secure, reliable and multiple payment methods to meet your need to complete the appointment reservation process',
+        'conversation' => 'conversation',
+        'session_on_time' => 'Start your session on time with an audio, video or chat call',
+        'always_available' => 'Always available',
+        'aim_is_to_continue' => 'Our aim is to continue, support, provide support and serve you by providing a service for booking a remote counseling session at any time',
+        'enlightenment_achievements' => 'Enlightenment achievements',
+        'provide_the_best_consultations' => 'We strive to provide the best consultations',
+        'opinions_of_our_customers' => 'The opinions of our customers',
+        'about_us_footer' => 'About us',
+        'get_the_app' => 'Get the app',
+        'download_the_application' => 'You can download the application on the Android or iPhone platform by clicking on the icon'
     ];

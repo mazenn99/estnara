@@ -29,6 +29,6 @@ class PagesController extends Controller
 
     // contact us page
     public function contactUs() {
-        //
+        return view('site.contact');
     }
 }

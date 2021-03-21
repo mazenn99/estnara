@@ -1,5 +1,6 @@
 <?php
     return [
+        'title_index' => 'الصفحة الرئيسية',
         'estnara' => 'إستنارة',
         // navbar //
         'home' => 'الصفحة الرئيسية',
@@ -28,9 +29,9 @@
         'educational' =>   'تربوية',
         'aim_to_advance_the_educational' =>   'نهدف إلى الرقي بالواقع التربوي وتطوير الخدمات التعليمية والإدارية وتقديم برامج إرشادية تربوية لكافة الجهات المعنية والمهتمة بالتطوير التربوي والتعليمي',
         'elite_educational_consultants' =>   'نخبة من الإستشارين التربويين',
-        'elite_educational_consultants_socialists' =>   '   نخبة من الإستشارين التربويين الاجتماعيين',
-        'elite_educational_consultants_psychologists' =>   '   نخبة من الإستشارين التربويين النفسيين',
-        'elite_educational_consultants_life_coach' =>   '   نخبة من الإستشارين التربويين اللايف كوتش',
+        'elite_educational_consultants_socialists' =>   '   نخبة من الإستشارين الاجتماعيين',
+        'elite_educational_consultants_psychologists' =>   '   نخبة من الإستشارين النفسيين',
+        'elite_educational_consultants_life_coach' =>   '   نخبة من مستشارين اللايف كوتش',
         'psychological' =>   'نفسية',
         'awareness_psychological_education' =>   'الوعي والتثقيف النفسي والمساندة في تقديم الإستشارات المتخصصة لمواجهة مشاكل الإضطرابات النفسية وتأمين الاستقرار النفسي للمجتمع',
         'social' =>   'اجتماعية',
@@ -43,4 +44,14 @@
         'application_uses_high_encryption' =>   'يستخدم التطبيق معايير تشفير عالية للمحافظة على خصوصيتك ، وسرية استشارتك',
         'payment' =>   'الدفع',
         'reliable_and_multiple_payment' =>   'طرق دفع آمنة وموثوقة ومتعددة لتلبي حاجتك في إتمام عملية حجز الموعد',
+        'conversation' => 'المحادثة',
+        'session_on_time' => 'ابدأ جلستك في موعدها من خلال اتصال صوتي أو فديو أو شات',
+        'always_available' => 'متاح دائمًا',
+        'aim_is_to_continue' => 'هدفنا الإستمرار والمساندة وتقديم الدعم وخدمتكم بتوفير خدمة حجز جلسة استشارية عن بعد في أي وقت',
+        'enlightenment_achievements' => 'إنجازات استنارة',
+        'provide_the_best_consultations' => 'نسعى إلى تقديم أفضل الإستشارات',
+        'opinions_of_our_customers' => 'آراء عملائنا',
+        'about_us_footer' => 'نبذة عنّا',
+        'get_the_app' => 'احصل على التطبيق',
+        'download_the_application' => 'يمكنك تحميل التطبيق على منصة اندرويد او ايفون من خلال الضغط على الايقونة',
     ];
