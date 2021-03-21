@@ -5,8 +5,8 @@
             <div class="row row-50 justify-content-sm-center justify-content-md-start justify-content-lg-between">
                 <div class="col-sm-6 col-md-4 col-lg-3">
                     <p class="custom-heading-3">{{trans('site/index.about_us_footer')}}</p>
-                    <p class="ls-05">يمكنك إستنارة من طلب إستشارات في شتى المجالات لدينا نخبة من المستشارين والمتخصين في
-                        مجال تقديم الإستشارات لاتتردد في الإتصال بنا وطرح استفسارك </p>
+{{--                    <p class="ls-05">يمكنك إستنارة من طلب إستشارات في شتى المجالات لدينا نخبة من المستشارين والمتخصين في--}}
+{{--                        مجال تقديم الإستشارات لاتتردد في الإتصال بنا وطرح استفسارك </p>--}}
                     <a class="button button-primary button-ujarak button-sm" href="contact-us.html">تواصل معنا</a>
                 </div>
                 <div class="download-area py-4">
