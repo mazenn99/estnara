@@ -259,7 +259,7 @@
     <!-- Why Choose Us-->
     <section class="section section-md bg-white text-center">
         <div class="container">
-            <h2>مميزاتنا</h2>
+            <h2 class="text-capitalize">{{trans('site/index.features')}}</h2>
             <div class="row row-30 row-md-70 wow fadeIn">
                 <div class="col-md-6 col-lg-4">
                     <!-- Box Lucy-->

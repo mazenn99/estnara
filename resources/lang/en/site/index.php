@@ -1,5 +1,6 @@
 <?php
     return [
+        'language' => 'language',
         // navbar //
         'title_index' => 'home page',
         'home' => 'home',
@@ -44,6 +45,7 @@
         'payment' =>   'payment',
         'reliable_and_multiple_payment' =>   'Secure, reliable and multiple payment methods to meet your need to complete the appointment reservation process',
         'conversation' => 'conversation',
+        'features' => 'our features',
         'session_on_time' => 'Start your session on time with an audio, video or chat call',
         'always_available' => 'Always available',
         'aim_is_to_continue' => 'Our aim is to continue, support, provide support and serve you by providing a service for booking a remote counseling session at any time',

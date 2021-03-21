@@ -1,5 +1,6 @@
 <?php
     return [
+        'language' => 'اللغات',
         'title_index' => 'الصفحة الرئيسية',
         'estnara' => 'إستنارة',
         // navbar //
@@ -48,6 +49,7 @@
         'session_on_time' => 'ابدأ جلستك في موعدها من خلال اتصال صوتي أو فديو أو شات',
         'always_available' => 'متاح دائمًا',
         'aim_is_to_continue' => 'هدفنا الإستمرار والمساندة وتقديم الدعم وخدمتكم بتوفير خدمة حجز جلسة استشارية عن بعد في أي وقت',
+        'features' => 'مميزاتنا',
         'enlightenment_achievements' => 'إنجازات استنارة',
         'provide_the_best_consultations' => 'نسعى إلى تقديم أفضل الإستشارات',
         'opinions_of_our_customers' => 'آراء عملائنا',
